@@ -1,7 +1,7 @@
 pipeline {
     agent any
      stages {
-        stage("Checkout-code") {
+        stage("Checkout-github-code") {
             steps {
                 echo "This is my first testing file"
             }
