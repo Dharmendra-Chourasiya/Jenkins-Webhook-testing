@@ -5,6 +5,7 @@ pipeline {
             steps {
                 echo "This is my first testing file"
 		echo "Hello ram"
+		echo "Pull code from github"
             }
         }
 
