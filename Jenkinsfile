@@ -1,10 +1,9 @@
 pipeline {
     agent any
      stages {
-        stage("Checkout-code") {
+        stage("git pull") {
             steps {
-                echo "This is my first testing file"
-		echo "Hello ram"
+                echo "New Jenkins file"
             }
         }
 
